@@ -1,5 +1,6 @@
 import './App.css';
-import { ParentThree } from './components/Incorrect Optimizations/ParentThree';
+import { ParentFour } from './components/Incorrect Optimizations/ParentFour';
+// import { ParentThree } from './components/Incorrect Optimizations/ParentThree';
 // import { ParentTwo } from './components/Optimization/ParentTwo';
 // import { GrandParent } from './components/Optimization/GrandParent';
 // import { ChildOne } from './components/Optimization/ChildOne';
@@ -13,7 +14,9 @@ import { ParentThree } from './components/Incorrect Optimizations/ParentThree';
 function App() {
   return (
     <div className="App">
-      <ParentThree/>
+
+      <ParentFour />
+      {/* <ParentThree/> */}
       {/* <ParentTwo /> */}
       {/* <GrandParent /> */}
       {/* <Parent/> */}
